@@ -1,0 +1,24 @@
+:host {
+  display: block;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main-layout {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.content-area {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+  background-color: #f8fafc; /* Academic light grey background */
+}
